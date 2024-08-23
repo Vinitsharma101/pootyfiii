@@ -8,7 +8,6 @@ const port = 3;
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
 
-// Enable CORS for all routes
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();

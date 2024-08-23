@@ -53,7 +53,7 @@ async function main() {
 
     let songUL = document.querySelector(".songlist ul");
     if (!songUL) {
-        console.error("No <ul> element found inside the .songlist class");
+        console.error("No <ul> element found ..nhi mile bhai..inside the .songlist class");
         return;
     }
 
